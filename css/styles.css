@@ -1,17 +1,69 @@
+/*==========FONTS==========*/
 
-li {
-  list-style-type: none;
-  color: #e40007;
+
+/*==========UNIVERSALS==========*/
+.container-fluid {
+  background-color: #ff0;
+  padding-left: 20px;
+}
+.container {
+  padding: 20px;
+}
+.row {
+  border: 1px solid black;
+}
+/*==========HEADER==========*/
+.header {
+  background-color: #00f;
+  height: 150px;
+  padding: 10px;
+}
+/*==========NAV==========*/
+.nav {
+  background-color: #008000;
+  height:   50px;
+  padding: 10px;
 }
 
-@media screen and (min-width: 300px) {
-  .col-md-3 {
-    background-color: blue;
+
+/*==========CONTENT==========*/
+.content {
+  background-color: #ff0000;
+  height:   200px;
+  border: 1px solid black;
+}
+
+
+/*==========ASIDE==========*/
+.aside {
+  background-color: #0ff;
+  height:   200px;
+  border: 1px solid black;
+}
+
+/*==========PROMO SECTION==========*/
+.promo {
+  background-color: #ffa500;
+  height: 150px;
+  border: 1px solid black;
+
+}
+
+
+/*==========FOOTER==========*/
+.footer {
+  background-color: #000;
+  height: 50px;
+  padding: 10px;
+  color: #FFF;
+}
+@media screen and (max-width: 768px) {
+  .promo {
+    background-color: #008000;
   }
 }
-
-@media screen and (min-width: 500px) {
-  .col-md-3 {
-    background-color: purple;
+@media screen and (max-width: 375px) {
+  .promo {
+    background-color: pink;
   }
 }
