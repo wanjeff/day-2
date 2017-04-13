@@ -62,7 +62,7 @@
     background-color: #008000;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 405px) {
   .promo {
     background-color: pink;
   }
